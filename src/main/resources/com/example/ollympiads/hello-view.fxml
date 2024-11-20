@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="h1" alignment="CENTER" prefHeight="605.0" prefWidth="810.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ollympiads.HelloController" style="-fx-background-color: #E9BCB9;">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="ПОЗДРАВИТЕЛИ:" textFill="#7b1111">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Label>
+   <CheckBox fx:id="first" mnemonicParsing="false" text="Google" />
+   <CheckBox fx:id="second" mnemonicParsing="false" text="Yandex" />
+   <CheckBox fx:id="third" mnemonicParsing="false" text="Innowise" />
+   <Button fx:id="loadGiftsButton" mnemonicParsing="false" text="ВЫБРАТЬ ПОДАРКИ" textFill="#6b2525">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Button>
+   <CheckBox fx:id="p_1" mnemonicParsing="false" />
+   <CheckBox fx:id="p_2" mnemonicParsing="false" />
+   <CheckBox fx:id="p_3" mnemonicParsing="false" />
+   <Label fx:id="welcomeText" alignment="BOTTOM_LEFT" text="Нужен Концерт?" />
+   <CheckBox fx:id="first_1" alignment="BOTTOM_LEFT" mnemonicParsing="false" text="Да" />
+   <CheckBox fx:id="first_2" alignment="BOTTOM_LEFT" mnemonicParsing="false" text="Нет" />
+   <Label fx:id="LABEL_3" text="Вы постоянный клиент? " />
+   <CheckBox fx:id="DA" mnemonicParsing="false" text="Да" />
+   <CheckBox fx:id="NET" mnemonicParsing="false" text="Нет" />
+   <Button fx:id="calculateButton" mnemonicParsing="false" text="Рассчитать сумму" textAlignment="CENTER" textFill="#992c2c">
+      <font>
+         <Font name="Verdana Bold" size="12.0" />
+      </font>
+   </Button>
+   <Label fx:id="resultLabel" />
+
+    
+</VBox>
