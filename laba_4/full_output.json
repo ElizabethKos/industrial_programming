@@ -1,0 +1,110 @@
+[ {
+  "studentId" : 12345,
+  "firstName" : "Иван",
+  "lastName" : "Иванов",
+  "middleName" : "Иванович",
+  "course" : 3,
+  "group" : "6",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 4,
+      "ИБГ" : 7
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 9
+    }
+  } ]
+}, {
+  "studentId" : 54321,
+  "firstName" : "Петр",
+  "lastName" : "Петров",
+  "middleName" : "Петрович",
+  "course" : 2,
+  "group" : "7",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 6
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 4
+    }
+  } ]
+}, {
+  "studentId" : 2323204,
+  "firstName" : "Иван",
+  "lastName" : "Железный",
+  "middleName" : "Валерьевич",
+  "course" : 2,
+  "group" : "6",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 9
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 10
+    }
+  } ]
+}, {
+  "studentId" : 33333,
+  "firstName" : "Игорь",
+  "lastName" : "Жебевеня",
+  "middleName" : "Святославович",
+  "course" : 4,
+  "group" : "11",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 10
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 5
+    }
+  } ]
+}, {
+  "studentId" : 44444,
+  "firstName" : "Ярослава",
+  "lastName" : "Антоненко",
+  "middleName" : "Игоревна",
+  "course" : 1,
+  "group" : "10",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 9
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 9
+    }
+  } ]
+}, {
+  "studentId" : 55555,
+  "firstName" : "Илья",
+  "lastName" : "Сласси-Мутобир",
+  "middleName" : "Каримович",
+  "course" : 3,
+  "group" : "5",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 10
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 2
+    }
+  } ]
+} ]

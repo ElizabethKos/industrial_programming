@@ -1,0 +1,20 @@
+{
+  "studentId" : 12345,
+  "firstName" : "Иван",
+  "lastName" : "Иванов",
+  "middleName" : "Иванович",
+  "course" : 3,
+  "group" : "6",
+  "sessions" : [ {
+    "sessionNumber" : 2,
+    "exams" : {
+      "Алгебра" : 4,
+      "ИБГ" : 7
+    }
+  }, {
+    "sessionNumber" : 1,
+    "exams" : {
+      "Математический анализ" : 9
+    }
+  } ]
+}
